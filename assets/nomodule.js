@@ -28,7 +28,7 @@ xreq.addEventListener("load", (event)=>{
     });
     centrecolumn.appendChild(document.createElement("p")).innerText = techs;
 });
-xreq.open("GET", "ProjectData.json");
+xreq.open("GET", "assets/projects/ProjectData.json");
 xreq.send();
 
 
