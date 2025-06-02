@@ -11,7 +11,7 @@
             "Body":"Designed with specific first hand experiences in mind, users with an account can create a \"Secret Santa\" type event, providing emails which will be used to send invitations. Recipients can then register and choose to participate. When the event is drawn, the chosen name and email of each participating user's randomly chosen \"Secret Santa\" will be emailed to them.",
             "OldBody":"Users can register for an account (using ASP.NET Core Identity) and link additional email addresses to this after email verification (I designed this with specific users/first hand experiences in mind, where the lack of such a feature would likely lead to them not participating). Users can create a \"Secret Santa\" type event, which involves adding a name and welcome message for the event, and the emails of those you wish to invite, and giving \"organiser\" status to any additional users who should be able to add more emails/make changes. The invitations can then be sent (if a real email sending service was hooked up to the provided interface), and recipients can then register and choose whether they want to participate or not, providing a display name and email address. The event can then be drawn, and the randomly chosen individualised \"Secret Santa\" name will be sent out by email to everyone participating. Additionally, these events can be made public, and, accessed by web link, free for anyone to add their own email to, pending verification if desired.",
             "Images":["san.png"],
-            "Links":[{"url":"https://secret-santa-7371.onrender.com/"},{"url":"https://github.com/tcbarker/SecretSantaDotNet8","Name":"Github"}]
+            "Links":[{"url":"https://secret-santa-7371.onrender.com/","Name":"Site hosted on Render (free tier)"},{"url":"https://github.com/tcbarker/SecretSantaDotNet8","Name":"Github"}]
         },
 
         {
@@ -34,6 +34,7 @@
             "Headline":"React frontend based restaurant menu/ordering app for a fictitious restaurant, with Node.js/Express/MySQL/Prisma backend.",
             "Tags":["React", "JavaScript", "JSON", "HTML", "CSS", "TypeScript", "Node.js", "Express.js", "SQL", "MySQL", "Prisma ORM", "git", "Docker", "bcrypt", "CORS", "Web Design"],
             "Body":"This was the first major modern web project that I completed while learning React. It has an \"interesting\" API... I am currently in the process of recreating this using the knowledge that I have gained.",
+            "Images":["pizza1.png","pizza2.png","pizza3.png"],
             "Links":null
         },
 
@@ -46,7 +47,7 @@
             "Tags":["JavaScript", "Three.js", "WebGL", "Physics Engine", "Cryptography", "Gamepad API", "git", "CSS" ],
             "Body":"Rendered in 3d using WebGL (through Three.js), using the Rapier physics library for game physics.",
             "Images":["tpt1.png","tpt2.png"],
-            "Links":[{"url":"https://tcbarker.github.io/TPT/"},{"url":"https://github.com/tcbarker/TPT","Name":"Github"}]
+            "Links":[{"url":"https://tcbarker.github.io/TPT/"}]
         },
 
         {
